@@ -41,4 +41,16 @@
         <!--redis end-->
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>maven-releases</id>
+            <name>User Porject Release</name>
+            <url>http://10.18.0.30:80/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>maven-snapshots</id>
+            <name>User Porject Snapshot</name>
+            <url>http://10.18.0.30:80/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
